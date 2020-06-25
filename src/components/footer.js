@@ -85,8 +85,8 @@ export default function SimpleContainer(props) {
           <Typography>
           <b>Address:-</b>27 Sial Flat, Grand Trunk Rd, University Town, Peshawar, Khyber Pakhtunkhwa, Pakistan.
           </Typography>
-          <Typography><b>Phone:-  </b><a href="https://api.whatsapp.com/send?phone=923348935202&text=Hello">03348935202</a></Typography>
-          <Typography><b>Email:-</b> <a href="mailto:info@softech-i.com">info@softech-i.com</a> </Typography>
+          <Typography><b>Phone:-  </b><a style={{color:"white" ,textDecoration:"none"}} href="https://api.whatsapp.com/send?phone=923348935202&text=Hello">03348935202</a></Typography>
+          <Typography><b>Email:-</b> <a style={{color:"white" ,textDecoration:"none"}} href="mailto:info@softech-i.com">info@softech-i.com</a> </Typography>
 
       
                </Paper>
