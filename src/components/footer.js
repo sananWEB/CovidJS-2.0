@@ -54,7 +54,7 @@ export default function SimpleContainer(props) {
       //style={{width:"48px"}}
       width="40" height="40"
       />
-              <Typography variant="h4" style={{fontWeight:"bold"}}>&nbsp;COVIDJS</Typography>
+              <Typography variant="h4" style={{fontWeight:"bold",paddingTop:"3px"}}>&nbsp;COVIDJS</Typography>
               </div>
               <Typography>Develop By : <a href="https://www.facebook.com/sanankhan16"
               target="_blank" style={{color:"white",textDecoration: "none"}}>
