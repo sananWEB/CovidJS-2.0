@@ -240,7 +240,9 @@ Title("CovidJS")
         <img 
       src={process.env.PUBLIC_URL+"/logo.png"}
       alt="new"
-      style={{width:"40px"}}
+      //sizes="50px"
+      width="40" height="40"
+     // style={{width:"40px"}}
       />
           <Typography variant="h4"  className={classes.logo}>&nbsp;&nbsp;CovidJS</Typography>
           </div>
