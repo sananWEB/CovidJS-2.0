@@ -248,7 +248,7 @@ Title("CovidJS")
      // style={{width:"40px"}}
       />
           {/*<Typography variant="h4"  className={classes.logo}>&nbsp;&nbsp;CovidJS</Typography>*/}
-          <Link to="/" className={classes.logo}>&nbsp;&nbsp;CovidJS</Link>
+          <Link to="/" className={classes.logo}>&nbsp;&nbsp;COVIDJS</Link>
           </div>
 
           <Hidden only={['sm',"xs"]}>
