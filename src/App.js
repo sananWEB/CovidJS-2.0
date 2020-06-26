@@ -23,6 +23,7 @@ import Privacy from "./components/privacy"
 import Service from "./components/service"
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
+
 let theme = createMuiTheme({
   palette: {
     primary: {
@@ -47,10 +48,12 @@ let theme = createMuiTheme({
 
 theme = responsiveFontSizes(theme);
 function App() {
+
   return (
 
     <BrowserRouter>
       <ThemeProvider theme={theme}> 
+
       <Zoom background="#0ABDE3" color="white" />
       <Route path="/" exact component={ButtonAppBar} />
       <Route path="/" exact component={MyCarousel} />
