@@ -78,7 +78,7 @@ const usStyles = makeStyles({
         [classes.fullList]: anchor === 'top' || anchor === 'bottom',
       })}
       role="presentation"
-      style={{backgroundColor:"#03A9F4",color:"white",  height:"100vh",
+      style={{backgroundColor:"#3D4849",color:"white",  height:"100vh",
 
     }}
       onClick={toggleDrawer(anchor, false)}
@@ -87,7 +87,7 @@ const usStyles = makeStyles({
      
       <Typography variant="h4" className={classes.logo}>CovidJS</Typography>
  
-      <Divider />
+      <Divider  style={{backgroundColor:"white"}} />
       <List >
         
           <ListItem button key='HOME'>
@@ -201,8 +201,11 @@ export default function ButtonAppBar() {
         logo:{
           fontWeight:"bold",
           color:color2,
+          textDecoration:"none",
+          fontSize: '30px',
           '@media (max-width:1200px)': {
             fontSize: '30px',
+            
             
           }
           },
@@ -244,7 +247,8 @@ Title("CovidJS")
       width="40" height="40"
      // style={{width:"40px"}}
       />
-          <Typography variant="h4"  className={classes.logo}>&nbsp;&nbsp;CovidJS</Typography>
+          {/*<Typography variant="h4"  className={classes.logo}>&nbsp;&nbsp;CovidJS</Typography>*/}
+          <Link to="/" className={classes.logo}>&nbsp;&nbsp;CovidJS</Link>
           </div>
 
           <Hidden only={['sm',"xs"]}>
