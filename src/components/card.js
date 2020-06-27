@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import ReactGa from "react-ga"
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -16,6 +16,10 @@ const useStyles = makeStyles({
 });
 
 export default function CCard(props) {
+  useEffect(()=>{
+      ReactGa.initialize("UA-170992543-1")
+      ReactGa.pageview("/")
+  },[])
   const classes = useStyles();
 
   return (
