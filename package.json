@@ -33,6 +33,7 @@
     "react-dialog": "^1.0.2",
     "react-dom": "^16.13.1",
     "react-ga": "^3.0.0",
+    "react-helmet": "^6.1.0",
     "react-onscroll": "^1.0.4",
     "react-preloaders": "^3.0.3",
     "react-responsive-carousel": "^3.2.7",
