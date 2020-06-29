@@ -12,7 +12,7 @@ export default function Service() {
   return (
     <React.Fragment>
       <ButtonAppBar/>
-      <Main2 image="h10.jpg" text="Terms and Conditions"/>
+      <Main2 image="h10-min.jpg" text="Terms and Conditions"/>
       <CssBaseline />
       <Container maxWidth="xl">
         <Typography component="div" style={{ minheight: '100vh' }}>

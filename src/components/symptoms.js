@@ -13,7 +13,7 @@ export default function Symptoms() {
   return (
     <React.Fragment>
       <ButtonAppBar/>
-      <Main2 image="h77.jpg" text="SYMPTOMS" />
+      <Main2 image="h77-min.jpg" text="SYMPTOMS" />
       <CssBaseline />
       <Container maxWidth="xl">
         <Typography component="div" style={{minheight: '100vh' }}>

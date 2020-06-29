@@ -86,7 +86,7 @@ export default function Agegroup() {
   return (
     <React.Fragment>
       <ButtonAppBar/>
-      <Main2 image="h22.jpg" text="AGEGROUP" />
+      <Main2 image="h22-min.jpg" text="AGEGROUP" />
       <CssBaseline />
       <Container maxWidth="xl">
         <Typography component="div" style={{minheight: '100vh'}}>

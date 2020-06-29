@@ -13,7 +13,7 @@ export default function Safely() {
   return (
     <React.Fragment>
       <ButtonAppBar/>
-      <Main2 image="h44.jpg" text="Prevention Tips"/>
+      <Main2 image="h44-min.jpg" text="Prevention Tips"/>
       <CssBaseline />
       <Container maxWidth="xl">
         <Typography component="div" style={{ minheight: '100vh' }}>

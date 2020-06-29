@@ -13,7 +13,7 @@ Title("About");
   return (
     <React.Fragment>
       <ButtonAppBar/>
-      <Main2 image="h55.jpg" text="ABOUT" />
+      <Main2 image="h55-min.jpg" text="ABOUT" />
       <CssBaseline />
       <Container maxWidth="xl">
         <Typography component="div" style={{marginTop:"20px",marginBottom:"20px", minheight: '100vh' }}>

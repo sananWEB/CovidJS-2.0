@@ -45,7 +45,7 @@ const useStyle=makeStyles({
     <React.Fragment>
       <CssBaseline/>
       <Container maxWidth="xl" id="gender">
-        <Typography component="div" style={{backgroundColor: '#5393ff', backgroundImage:"url("+process.env.PUBLIC_URL+"/h77.jpg)",
+        <Typography component="div" style={{backgroundColor: '#5393ff', backgroundImage:"url("+process.env.PUBLIC_URL+"/h77-min.jpg)",
         backgroundPosition:"center",
         backgroundSize:" cover",
         backgroundRepeat:"no-repeat", maxheight: '100vh',

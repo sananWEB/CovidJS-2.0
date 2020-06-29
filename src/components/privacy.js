@@ -17,7 +17,7 @@ export default function Privacy() {
   return (
     <React.Fragment>
         <ButtonAppBar/>
-      <Main2 image="h88.jpg" text="Privacy Policy"/>
+      <Main2 image="h88-min.jpg" text="Privacy Policy"/>
       <CssBaseline />
       <Container maxWidth="xl">
       <Typography variant="h1" component="div" style={{minheight: '100vh' }}>

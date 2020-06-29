@@ -8,7 +8,7 @@ export default function Who() {
     const useStyles=makeStyles({
         container:{
             backgroundColor: '#cfe8fc',
-            backgroundImage:"url("+process.env.PUBLIC_URL+"./main/main"+7+".jpg)",
+            backgroundImage:"url("+process.env.PUBLIC_URL+"./main/main"+7+"-min.jpg)",
             backgroundPosition:" center",
             backgroundSize:" cover",
             backgroundRepeat:"no-repeat",
